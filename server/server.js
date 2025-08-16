@@ -2,7 +2,6 @@ import express from 'express';
 import "dotenv/config"; // to load environment variables
 import cors from 'cors';// to connect frontend and backend
 import connectDB from './configs/db.js';
-import { use } from 'react';
 import userRouter from './routes/userRoutes.js';
 import ownerRouter from './routes/ownerRoutes.js';
 import bookingRouter from './routes/bookingRoutes.js';
